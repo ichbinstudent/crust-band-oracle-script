@@ -1,0 +1,13 @@
+[package]
+name = "band-crust"
+
+version = "0.1.0"
+authors = ["David Höglinger <david.hoeglinger@student.kit.edu>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+owasm-kit = { version = "0.1.13" }
+obi = { version = "0.0.2" }
